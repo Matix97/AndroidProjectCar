@@ -9,3 +9,7 @@ Aplikacja, która umożliwiałaby wpsółdzielenie pojazdów w firmie oraz ich k
 - zgłaszanie usterek
 - zakładanie konta
 - śledzenie pojazdów
+
+## Środwisko i język:
+- Android Studio
+- Java 
