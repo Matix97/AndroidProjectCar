@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/map"
+
+        android:layout_width="306dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/chose_car_textview"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/chose_car_name_car" />
+
+    <Button
+        android:id="@+id/tankowanie"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/tankowanie_string" />
+
+    <Button
+        android:id="@+id/usterka"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+        android:layout_alignEnd="@+id/map"
+        android:layout_alignBottom="@+id/tankowanie"
+        android:text="@string/usterka_string" />
+</RelativeLayout>

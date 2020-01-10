@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="257dp"
+        android:layout_height="230dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:autoSizeMaxTextSize="@dimen/activity_horizontal_margin"
+        android:autoSizeMinTextSize="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:id="@+id/nfcButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="432dp"
+
+        android:text="@string/NFCButton"
+        android:layout_centerHorizontal="true"/>
+       <!-- android:onClick="nfcActivity"-->
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/modelText"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="31dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/model" />
+
+    <TextView
+        android:id="@+id/registrationText"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/modelText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/registration" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/modelText"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/registrationText"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/default_car" />
+
+</RelativeLayout>
